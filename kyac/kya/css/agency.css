@@ -114,7 +114,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary .badge {
     color: #ff0000;
-    background-color: #fff;
+    background-color: #000;
 }
 /*LET's START BUTTON*/
 .btn-xl {
@@ -123,8 +123,8 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 30px;
-    font-weight: 700;
-    color: #000;
+    font-weight: 500;
+    color: #000; /*lets start font color*/
 }
 
 .btn-xl:hover,
@@ -166,22 +166,22 @@ fieldset[disabled] .btn-xl.active {
     color: #dd0000;
     background-color: #fff;
 }
-
+/*Bar*/
 .navbar-default {
     border-color: transparent;
-    background-color: #000;
+    background-color: #fff;
 }
 /*KYAC button*/
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #ffffff;
+    color: #000;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #b20000;
+    color: #b20000; /*KYAC highlighted*/
 }
 
 .navbar-default .navbar-collapse {
@@ -189,17 +189,17 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #ff0000;
-    background-color: #ff0000;
+    border-color: #ff0000; /*Mobile menu bar border*/
+    background-color: #ff0000; /*Mobile menu bar color*/
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #fff; /*Mobile menu bar lines*/
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #b20000;
+    background-color: #b20000; /*Mobile menu bar color when highlighted*/
 	border-color: #b20000;
 }
 
@@ -208,24 +208,24 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #000; /*menu items font color*/
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #ff0000;
+    color: #ff0000; /*Mobile menu bar collapsed item colors when highlighted*/
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #ff0000;
+    color: #fff; /*Menu bar item font color when highlighted*/
+    background-color: #ff0000; /*Menu bar item color when highlighted*/
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: #fff; /*Hovering over menu bar item when highlighted*/
     background-color: #b20000;
 }
 
@@ -252,7 +252,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #fff; /*Menu bar color when past top page*/
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -263,8 +263,9 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+	padding-top:100px;
     background-attachment: scroll;
-    background-image: url(../img/pictures/kurd-canada-flag.jpg);
+    background-image: url(../img/pictures/logo2.jpg);
 	background: rgb(50,25,25, .5);
     background-position: center center;
     background-repeat: none;
@@ -336,7 +337,7 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-		color: #ff0000;
+		color: #f8cd00;
     }
 }
 
@@ -512,8 +513,8 @@ section h3.section-subheading {
     border: 7px solid #f1f1f1;
     border-radius: 100%;
     text-align: center;
-    color: #fff;
-    background-color: #ff0000;
+    color: #000;
+    background-color: #fff;
 }
 
 .timeline>li .timeline-image h4 {
@@ -668,6 +669,8 @@ section h3.section-subheading {
 }
 .carousel-inner > .item > img {
     margin: 0 auto;
+	height:620px;
+    width:90%;
 }
 aside.clients img {
     margin: 50px auto;
