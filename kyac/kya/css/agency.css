@@ -264,7 +264,7 @@ header {
     text-align: center;
     color: #fff;
 	padding-top:100px;
-    background-attachment: scroll;
+    background-attachment: fixed; /* can also be scroll*/
     background-image: url(../img/pictures/logo2.jpg);
 	background: rgb(50,25,25, .5);
     background-position: center center;
