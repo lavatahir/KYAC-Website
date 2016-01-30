@@ -12,9 +12,17 @@ body {
 .text-muted {
     color: #777;
 }
-
 .text-primary {
 	color: #ff0000;
+	-webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+	
+}
+.text-primary :hover,
+.text-primary :focus,
+.text-primary .active {
+	background-color: #fff;
 }
 
 p {
@@ -441,7 +449,6 @@ section h3.section-subheading {
 #portfolio * {
     z-index: 2;
 }
-
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
@@ -669,8 +676,8 @@ section h3.section-subheading {
 }
 .carousel-inner > .item > img {
     margin: 0 auto;
-	height:620px;
-    width:90%;
+	height:600px;
+    width:80%;
 }
 aside.clients img {
     margin: 50px auto;
@@ -710,62 +717,6 @@ section#contact .section-heading {
     color: #000;
 }
 
-
-/*
-section#contact .form-group {
-    margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
-}
-
-section#contact .form-group input.form-control {
-    height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-}
-
-section#contact .form-control:focus {
-    border-color: #ff0000;
-    box-shadow: none;
-}
-
-section#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact::-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-ms-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact .text-danger {
-    color: #e74c3c;
-}
-*/
 footer {
     padding: 25px 0;
     text-align: center;
@@ -785,7 +736,6 @@ footer ul.quicklinks {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
-
 ul.social-buttons {
     margin-bottom: 0;
 }
@@ -843,6 +793,7 @@ ul.social-buttons li a:active {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+	color: #ff0000;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -911,7 +862,6 @@ img::selection {
 img::-moz-selection {
     background: 0 0;
 }
-
 body {
-    webkit-tap-highlight-color: #ff0000;
+    webkit-tap-highlight-color: #4444;
 }
